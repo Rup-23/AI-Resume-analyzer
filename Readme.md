@@ -31,13 +31,4 @@ An intelligent career assistant that bridge the gap between your current resume 
 
 ---
 
-## ⚙️ How It Works
-
-1.  **Input:** User uploads a Resume (PDF) + Job Description + Self Description.
-2.  **Parsing:** The backend uses `pdf-parse` to convert the PDF into a raw text format.
-3.  **AI Engine:** The text is sent to the **Gemini API** with a custom prompt to identify gaps and generate questions.
-4.  **Roadmap:** AI generates a structured 7-day study plan.
-5.  **PDF Export:** Using **Puppeteer**, the final AI-optimized resume is rendered and converted back into a downloadable PDF for the user.
-
----
 
